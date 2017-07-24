@@ -237,7 +237,7 @@ input,
 }
 
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
+ 
     .container-head,
     .container-content {
         width: 650px;
@@ -267,24 +267,23 @@ input,
         width: 95%;
         margin: 10px 10px 10px 10px;
     }
-    .aside-icons{
+    .aside-icons {
         padding: 5px;
-
     }
-    .work{
+    .work {
         width: 270px;
     }
 }
 
 
 @media only screen and (max-width: 640px) {
-    /* For mobile phones: */
+ 
     .container-head,
-    
+
     .logo {
         width: 100%;
     }
-    .container-content{
+    .container-content {
         width: 280px;
         margin-top: 75px;
     }
@@ -293,18 +292,16 @@ input,
         width: 29%;
         display: none;
     }
-    .logo{
+    .logo {
         /*clear: right;*/
     }
     .navbar {
-       width: 100%;
-    text-align: center;
-    height: 50px;
-    top: 0px;
-    background-color: white;
-    padding: 15px 0 0 0;
-
-
+        width: 100%;
+        text-align: center;
+        height: 50px;
+        top: 0px;
+        background-color: white;
+        padding: 15px 0 0 0;
     }
     form,
     .section {
@@ -324,14 +321,18 @@ input,
         width: 95%;
         margin: 10px 10px 10px 10px;
     }
-    .aside-icons{
+    .aside-icons {
         padding: 5px;
-
     }
-    .work{
+    .work {
         width: 270px;
     }
-    .link_i,.link2,.link3{
+    .link_i,
+    .link2,
+    .link3 {
         top: 20px;
+    }
+    .my-photo {
+        padding: 0 0 20px 0;
     }
 }
